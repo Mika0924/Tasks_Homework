@@ -16,6 +16,6 @@ void NaturalNum(int N)
     Console.Write($"{N} ");
     NaturalNum (N - 1);
 }
-Console.Write($"{L} -> ");
-NaturalNum(N);
+Console.Write($"{L} ->  "); NaturalNum(N);
+
 
