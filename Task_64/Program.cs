@@ -10,12 +10,12 @@ if (N < 1)
     Console.WriteLine("Non-natural number is entered! Try again");
     return;
 }
-void NaturalNum(int N)
+void SumNaturalNum(int N)
 {
     if(N == 0) return;
     Console.Write($"{N} ");
-    NaturalNum (N - 1);
+    SumNaturalNum (N - 1);
 }
-Console.Write($"{L} ->  "); NaturalNum(N);
+Console.Write($"{L} ->  "); SumNaturalNum(N);
 
 
