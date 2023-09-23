@@ -2,7 +2,7 @@
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
-Console.Write("Введите N: ");
+Console.Write("Enter a natural number(N): ");
 int N = Convert.ToInt32(Console.ReadLine());
 int L = N;
 if (N < 1)

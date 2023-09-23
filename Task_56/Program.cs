@@ -51,7 +51,7 @@ for (int i = 1; i < array.GetLength(0); i++)
 
 Console.WriteLine($"{MinLine + 1} строкa с наименьшей суммой ({Sum})");
 
-int (int[,] array, int i)
+int LineElements(int[,] array, int i)
 {
     int Sum = array[i, 0];
     for (int j = 1; j < array.GetLength(1); j++)
